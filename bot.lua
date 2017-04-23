@@ -9,7 +9,7 @@ redis = db.connect('127.0.0.1', 6379)
 JSON = require('dkjson')
 http.TIMEOUT = 10
 --###############################--
-sudo_users = {305941305}
+sudo_users = {315017219}
 
 --##########GetMessage###########--
 local function getMessage(chat_id, message_id,callback)
